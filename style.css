@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    background-color: rgb(245, 243, 243);
+}
+
+.name1 {
+    position: relative;
+    font-family: 'Rubik Doodle Shadow';
+    font-size: 120px;
+    color: rgb(113, 67, 121);
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    letter-spacing: .20cm;
+}
+
+.one {
+    border: 5px solid rgb(113, 67, 121);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+}
+
+
