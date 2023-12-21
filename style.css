@@ -37,7 +37,9 @@ body {
 
 .name1 {
     font-family: 'Rubik Doodle Shadow';
-    font-size: 72px;
+    font-size: 32px;
+    padding: 0px;
+    margin: 0px;
 }
 
 
