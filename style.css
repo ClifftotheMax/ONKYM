@@ -29,4 +29,22 @@ body {
     padding: 10px;
 }
 
+@media screen and (max-width: 1000px) {
+* {
+    margin: 0;
+    padding: 0;
+}
 
+.name1 {
+    display: none;
+    font-family: 'Rubik Doodle Shadow';
+    font-size: 32px;
+    color: rgb(113, 67, 121);
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    letter-spacing: .20cm;
+
+    
+}   
+}
