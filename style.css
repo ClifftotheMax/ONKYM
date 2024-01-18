@@ -1,32 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap');
 * {
     margin: 0;
     padding: 0;
   }
 
 body {
-    background-color: rgb(245, 243, 243);
+    background-color: rgb(0, 0, 0);
 }
 
 .name1 {
-    position: relative;
-    font-family: 'Rubik Doodle Shadow';
+    font-family: 'gasoek one';
     font-size: 120px;
-    color: rgb(113, 67, 121);
-    margin: 0px;
+    background: -webkit-linear-gradient(#ebd197, #a2790d, #bb9b49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: .03em;
+    padding: 25px 0px 0px 25px;
+    
+}
+
+@media screen and (max-width: 768px) {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.name1 {
+    font-family: 'gasoek one';
+    font-size: 32px;
     padding: 0px;
-    text-align: center;
-    letter-spacing: .20cm;
-}
-
-.one {
-    border: 5px solid rgb(113, 67, 121);
-    border-radius: 20px;
-    margin: 20px;
-    padding: 10px;
+    margin: 0px;
 }
 
 
+
+
+}
